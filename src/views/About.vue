@@ -6,11 +6,15 @@
     </div>
     <div class="contents">
       <h2>「てれるん」とは</h2>
-      <span>
-        「てれるん」はちんちんをよく出します。
-        <br>
-        ちんちんはてれるんを良く出します。
-      </span>
+      <div class="about-tererun-description">
+        <span>
+          "やりたいことを実現"させるために、気ままにプログラムを書いている高校生です。
+          <br />
+          JavaでSpigotプラグインを作っていたり、最近はUnityやFlutterなどにも手を出し始めています。
+        </span>
+      </div>
+
+      <h2></h2>
     </div>
   </div>
 </template>
@@ -71,6 +75,13 @@ span {
   animation-duration: 3s;
   animation-name: visible;
   padding: 20px;
+  text-align: center;
+}
+
+.about-tererun-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @keyframes slidein {
