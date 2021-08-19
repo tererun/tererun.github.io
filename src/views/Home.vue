@@ -11,7 +11,7 @@
             ><fa-icon :icon="['fab', 'twitter']"
           /></a>
           <a
-            href="http://tererun.studio/"
+            href="https://www.youtube.com/channel/UCli9iNco_SDFNRJz1DjkTNQ"
             target="_blank"
             ><fa-icon :icon="['fab', 'youtube']"
           /></a>
